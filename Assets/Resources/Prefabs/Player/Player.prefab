@@ -172,11 +172,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0
+  near clip plane: 0.001
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 12
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -318,9 +318,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  speed: 7
-  dashDuration: 0.3
-  dashSpeed: 20
+  speed: 10
+  dashDuration: 0.25
+  dashSpeed: 25
   numberOfConsecutiveDashes: 2
   consecutiveDashBuffer: 0.65
   dashCooldown: 2
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_Follow: {fileID: 5813735613582352384}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7
+    OrthographicSize: 12
     NearClipPlane: 0.001
     FarClipPlane: 1000
     Dutch: 0
