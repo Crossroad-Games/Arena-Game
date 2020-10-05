@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "newPlayerdata", menuName = "Data/Player/PlayerData")]
 public class CharacterData : ScriptableObject
 {
-    public int health = 100;
+    public float MaxHealth = 100f;
 }

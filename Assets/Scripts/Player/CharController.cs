@@ -60,7 +60,7 @@ public class CharController : NetworkBehaviour
     void Update()
     {
         /////Debugs/////
-        Debug.Log(dashCounter);
+        //Debug.Log(dashCounter);
         ///////////////
 
         if (hasAuthority)
